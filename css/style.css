@@ -1,9 +1,15 @@
 
 
 body{
-  font-family: sans-serif;;
+  font-family: sans-serif;
+  top: 10%;
+  
 }
 
+main
+{
+  padding-bottom: 150px;
+}
 header
 {
   background-color: rgb(61, 55, 55);
@@ -14,11 +20,13 @@ nav
 {
   display: inline-block;
   position: absolute ;
-  top: 4%;
+  top: 0%;
+  margin-left: 5%;
+  
 }
 
 
-nav,li
+li
 {
   display: inline-block;
 }
@@ -26,14 +34,62 @@ nav,li
 li
 {
   
-  float: right;
+  float: left;
   color: white;
   padding: 10px; margin: 4px; text-align: center;
+  padding: 35px;
   
 }
+
+
+header img
+{
+  display: inline-block; margin: 2% 3% 1% 10%
+}
+
+main img
+{
+  margin-left: 12% ;
+  display: inline-block ; 
+  margin-top: -2%;
+  
+}
+
+div img
+{
+  
+  
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin: 5%;
+  
+}
+
+section img
+{
+  display: inline-block;
+  margin-left: 13.5%;
+  margin-right: auto
+}
+
+article
+{
+  display: block;
+  float: right;
+  margin-top: -2%;
+  margin-right: 10%
+}
+
+button
+{
+  background-color: black;
+  color: white;
+}
+
 footer
 {
-  background-color: rgb(61, 55, 55);
-  height: 100%;
   
+  margin-top: -150px;
+  background-color: rgb(61, 55, 55);
+
 }
